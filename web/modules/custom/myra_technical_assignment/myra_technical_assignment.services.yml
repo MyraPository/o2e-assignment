@@ -1,0 +1,6 @@
+services:
+  myra_technical_assignment.adder:
+    class: Drupal\myra_technical_assignment\Adder
+  myra_technical_assigment.string_formatter:
+    class: Drupal\myra_technical_assignment\StringFormatter
+    arguments: ['@myra_technical_assignment.adder']

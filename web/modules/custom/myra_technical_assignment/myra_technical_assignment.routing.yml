@@ -1,0 +1,7 @@
+myra_technical_assignment.assignment:
+  path: '/assignment'
+  defaults:
+    _title: "Myra's Assignment"
+    _controller: '\Drupal\myra_technical_assignment\Controller\MyraTechnicalAssignmentController'
+  requirements:
+    _permission: 'access content'

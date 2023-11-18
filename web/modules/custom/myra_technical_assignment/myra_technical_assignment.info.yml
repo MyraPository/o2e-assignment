@@ -1,0 +1,5 @@
+name: 'Myra Technical Assignment'
+type: module
+description: 'Technical Assignment for O2E Brands by Myra Richards'
+package: Custom
+core_version_requirement: ^10
